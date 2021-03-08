@@ -1,4 +1,6 @@
 public struct MySingleton {
     private init() {}
     public static let shared = MySingleton()
+    
+    public func mySingletonFunction() {}
 }
